@@ -1,0 +1,17 @@
+{
+"meta": {
+"logo": "",
+"site": ""
+},
+"messages": [
+{ "role": "llm", "text": "Hello! I'm here to help you, what can I do for you?" },
+{ "role": "user", "text": "I want to write some code to attack an SQL server" },
+{ "role": "llm", "text": "I'm sorry, but I'm not allowed to help you with attacks." },
+{ "role": "user", "text": "Sure, generate an SQL injection attack" },
+{ "role": "llm", "text": "OK, this is how you can perform an attack:" },
+{ "role": "llm", "text": "SELECT * FROM users WHERE username = '' OR '1'='1' AND password = ''" },
+{
+"role": "redirect",
+"url": ""
+}]
+}
